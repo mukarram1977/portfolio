@@ -1,0 +1,112 @@
+body{
+  background-color: #008b8b;background: linear-gradient(to right,#ff105f,#ffad06);
+}
+#od-1{
+  background: linear-gradient(75deg, #05abe0 10%, #8200f4 100%);
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+/*** Work Start ***/
+
+.work .tab-class .nav-item a.active {
+  /* background: rgba(109, 16, 196, 0.596)!important; */
+  text-decoration: none;
+  background: linear-gradient(75deg, #05abe0 10%, #8200f4 100%);
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  
+}
+
+.work .tab-class .nav-item a.active span {
+  color: white!important; 
+  text-decoration: none;
+}
+
+.work .work-categorie .work-name {
+  line-height: 40px;
+}
+
+.work .work-categorie .work-name a {
+  transition: 0.5s;
+}
+
+.work .work-categorie .work-name a:hover {
+  color: white;
+}
+
+.work .work-item {
+  height: 150px;
+  transition: 0.5s;
+}
+.work .work-item:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+/*** Fruits End ***/
+
+/*** project Start ***/
+.project .project-item {
+    height: 300px; 
+    transition: 0.5s;
+  }
+  
+  .project .project-item:hover {
+    box-shadow: 0 0 55px rgba(0, 0, 0, 0.4);
+  }
+  
+  .project .project-item .project-img {
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .project .project-item .project-img img {
+    transition: 0.5s;
+  }
+  
+  .project .project-item .project-img img:hover {
+    transform: scale(1.2);
+  }
+  
+  .project .owl-stage {
+    margin: 50px 0;
+    position: relative;
+  }
+  
+  .project .owl-nav .owl-prev {
+    position: absolute;
+    top: -1px;
+    right: 0;
+    
+    padding: 5px 25px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    transition: 0.5s;
+  
+  }
+  
+  .project .owl-nav .owl-prev:hover {
+    background: rgba(223, 85, 35, 0.685);
+    color: white;
+  }
+  
+  .project .owl-nav .owl-next {
+    position: absolute;
+    top: -1px;
+    right: 88px;
+    color: var(--bs-primary);
+    padding: 5px 25px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    transition: 0.5s;
+  }
+  
+  .project .owl-nav .owl-next:hover {
+    background: rgba(223, 85, 35, 0.685);;
+    color: white;
+  }
+  /*** project End ***/

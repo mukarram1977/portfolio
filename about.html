@@ -1,0 +1,404 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfoilio Website</title>
+     <!-- Font-awesome link -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Matemasie&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- Libraries Stylesheet -->
+    <link href="plug/animate/animate.min.css" rel="stylesheet">
+    <link href="plug/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <!---Bootstrapt CSS link-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!---Main CSS Link-->
+    <link rel="stylesheet" href="index-2.css">
+</head>
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 1.5rem; height: 1.5rem;" role="status" id="od-2">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+    
+    <!-- Navbar Start Here-->
+    <div class="container-fluid sticky-top">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-3" style="background: linear-gradient(to right,#ff105f,#ffad06);">
+                <a href="#" class="navbar-brand d-lg-none">
+                    <h1 class="text-white m-0" id="title">Web<span class="text-primary" id="title">sky</span></h1>
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="NavID" aria-expanded="false"
+                    aria-label="toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="index-2.html" target="_self" class="nav-item nav-link active" aria-current="page" id="nav">Home</a>
+                        <a href="about.html" target="_self" class="nav-item nav-link">About</a>
+                        <a href="services.html" target="_self" class="nav-item nav-link">Services</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu bg-light m-0">
+                                <a href="my work.html" target="_self" class="dropdown-item">my work</a>
+                                <a href="testimonial.html" target="_self" class="dropdown-item">Testimonial</a>
+                                <a href="get in touch.html" target="_self" class="dropdown-item">get in touch</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" target="_self" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <div class="ms-auto d-none d-lg-flex">
+                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.facebook.com/login.php/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href="https://github.com/login"><i class="fab fa-github"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.linkedin.com/login"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                        <button class="btn-search btn btn-primary btn-md-square  ms-2" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search text-white"></i></button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End Here-->
+    <!-- Modal Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content rounded-0" style="background: linear-gradient(to right,#ff105f,#ffad06);">
+                <div class="modal-header">
+                    <h5 class="modal-title text-light" id="exampleModalLabel">Search by keyword</h5>
+                    <button type="button" class="btn-close text-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center">
+                    <div class="input-group w-75 mx-auto d-flex">
+                        <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                        <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search text-primary"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Search End -->
+     
+    
+    <!-- About Start Here -->
+    <div class="container-fluid about  py-2">
+        <div class="container-fluid py-5">
+            <div class="row g-5">
+                <div class="col-xl-5">
+                    <div class="h-100">
+                        <img src="pictures/mukarram.jpg" class="img-fluid w-100 border border-rounded shadow-lg" alt="Image" style="height: 600px;">
+                    </div>
+                </div>
+                <div class="col-xl-7">
+                    <h2 class="text-uppercase text-light text-center fw-bold rounded-pill" id="od-1">About Us</h2>
+                    <p class="fs-5 mb-4 text-light"> I create engaging, user-friendly web interfaces using HTML, CSS, and Javascript. My focus is on crafting clean, efficient code that brings intuitive designs to life.
+                        I'm passionate about staying updated with the latest web technologies and trends, ensuring that my work not only meets current standards but also delivers exceptional 
+                        user experiences. I enjoy working in dynamic environments and collaborating with teams to develop hight-quality, responsive websites.
+                    </p>
+                    <div class="tab-class p-4" style="background-color: #008b8b;" id="od-1">
+                        <ul class="nav d-flex mb-2">
+                            <li class="nav-item mb-3">
+                                <a class="d-flex py-2 text-center active text-decoration-none" data-bs-toggle="pill" href="#tab-1">
+                                    <span class="text-light" style="width: 80px;  background: linear-gradient(to right,#ff105f,#ffad06);">About</span>
+                                </a>
+                            </li>
+                            <li class="nav-item mb-3">
+                                <a class="d-flex py-2 mx-3 text-center text-decoration-none" data-bs-toggle="pill" href="#tab-2">
+                                    <span class="text-light" style="width: 80px; background: linear-gradient(to right,#ff105f,#ffad06);">Mission</span>
+                                </a>
+                            </li>
+                            <li class="nav-item mb-3">
+                                <a class="d-flex py-2 text-center text-decoration-none" data-bs-toggle="pill" href="#tab-3">
+                                    <span class="text-light" style="width: 80px; background: linear-gradient(to right,#ff105f,#ffad06);">Vision</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div id="tab-1" class="tab-pane fade show p-0 active">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="d-flex">
+                                            <div class="text-start my-auto">
+                                                <h5 class="text-uppercase mb-3 text-light">About us</h5>
+                                                <p class="mb-4 text-light"> I create engaging, user-friendly web interfaces using HTML, CSS, and Javascript. My focus is on crafting clean, efficient code that brings intuitive designs to life.
+                                                    I'm passionate about staying updated with the latest web technologies and trends, ensuring that my work not only meets current standards but also delivers exceptional 
+                                                    user experiences. I enjoy working in dynamic environments and collaborating with teams to develop hight-quality, responsive websites.
+                                                </p>
+                                                </p>
+                                                <div class="d-flex align-items-center justify-content-start">
+                                                    <a class="btn text-white py-2 px-4" href="#" id="od-1">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab-2" class="tab-pane fade show p-0">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="d-flex">
+                                            <div class="text-start my-auto">
+                                                <h5 class="text-uppercase mb-3">Mission</h5>
+                                                <p class="mb-4">As a frontend developer, my mission is to create user-friendly, responsive, and visually appealing web interfaces. I aim to deliver seamless user experiences by combining clean, efficient code with modern design principles. I strive to stay updated with the latest technologies, ensuring that my work is accessible, engaging, and functional across all devices and platforms.
+                                                </p>
+                                                <div class="d-flex align-items-center justify-content-start">
+                                                    <a class="text-white py-2 px-4" href="#" id="od-1">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab-3" class="tab-pane fade show p-0">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="d-flex">
+                                            <div class="text-start my-auto">
+                                                <h5 class="text-uppercase mb-3">Vision</h5>
+                                                <p class="mb-4">As a frontend developer, my vision is to innovate and inspire through intuitive web designs that enhance user interaction. I aspire to build digital experiences that are not only aesthetically pleasing but also highly functional and accessible to all users. By continually improving my skills, I aim to shape the future of web development and design.
+                                                </p>
+                                                <div class="d-flex align-items-center justify-content-start">
+                                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="#" id="od-1">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End Here -->
+   
+    <!--Education Start Here-->
+      <div class="container-fluid about  py-1">
+        <div class="container-fluid py-3">
+            <div class="row g-3">
+                <div class="col-xl-6">
+                    <div class="education " id="education" style="background-color: #008b8b; background: linear-gradient(to right,#ff105f,#ffad06);"">
+                        <div class="content-inner">
+                            <div class="content-header">
+                                <h2 id="text-1" class="text-light">Education</h2>
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <div class="edu-col">
+                                        <span class="text-light">session<i class="text-light">:</i> 1995-1996</span>
+                                        <h3 class="text-light">Master of Commerce</h3>
+                                        <p class="text-light">M.Com(management)<br>Ananda Mohan College.Myemensingh.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="edu-col">
+                                        <span class="text-light">01-Jan-2020 <i class="text-light">to</i> 31-Dec-2050</span>
+                                        <h3 class="text-light">Bachelor of Commerce</h3>
+                                        <p class="text-light">B.Com(Hon's)<br>Ananda Mohan College.Myemensingh.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="edu-col">
+                                        <span class="text-light">Session<i class="text-light">:</i>1994-1995</span>
+                                        <h3 class="text-light">H.S.C</h3>
+                                        <p class="text-light">Wali Newaz Khan Collage,Kishoreganj.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="edu-col">
+                                        <span class="text-light">Session<i class="text-light">:</i>1993</span>
+                                        <h3 class="text-light">High School</h3>
+                                        <p class="text-light">Kishoreganj Govt Boys High School.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                 <!--Education End Here-->
+                 <!--Experience Start Here-->
+                <div class="col-xl-6">
+                    <div class="experience" id="experience" style="background-color: #008b8b;background: linear-gradient(to right,#ff105f,#ffad06);"">
+                        <div class="content-inner mb-3">
+                            <div class="content-header">
+                                <h2 id="text-1" class="text-light">Experience</h2>
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <div class="exp-col">
+                                        <span class="text-light">01-Jan-2009 <i class="text-light">to</i> 11-oct-2010</span>
+                                        <h3 class="text-light">BRAC(BEP)</h3>
+                                        <h4 class="text-light">Balia,Myemensingh</h4>
+                                        <h5 class="text-light">Branch Manager</h5>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="exp-col">
+                                        <span class="text-light">12-oct-2010 <i class="text-light">to</i> 31-Dec-2011</span>
+                                        <h3 class="text-light">BRAC(BDP)</h3>
+                                        <h4 class="text-light">Hobiganj,Region</h4>
+                                        <h5 class="text-light">Quality Controller</h5>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="exp-col">
+                                        <span class="text-light">1-Jul-2013 <i class="text-light">to</i>31-Nov-2020 </span>
+                                        <h3 class="text-light">DESHI</h3>
+                                        <h4 class="text-light">Kishoreganj</h4>
+                                        <h5 class="text-light">Branch Manager</h5>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="exp-col">
+                                        <span class="text-light">01-Jan-2022 <i>to</i></span>
+                                        <h3 class="text-light">My talk com</h3>
+                                        <h4 class="text-light">Kishoreganj</h4>
+                                        <h5 class="text-light">Font end developer</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Experience End Here-->
+            </div>
+        </div>
+    </div>
+    <!--My Skill Start Here-->
+    <div class="container-fluid mt-1" style="background: linear-gradient(to right,#ffad06,#ff105f);">
+        <div class="row">
+            <div class="col-sm-12" id="skill">
+                <h1 class="rounded-pill" id="od-1">My Skill</h1>
+              <li>
+                <h5>Html 90%</h5>
+                <span class="bar"><span class="html"></span></span>
+              </li>
+              <li>
+                <h5>Css 80%</h5>
+                <span class="bar"><span class="css"></span></span>
+              </li>
+              <li>
+                <h5>Javascript 50%</h5>
+                <span class="bar"><span class="Javascript"></span></span>
+              </li>
+              <li>
+                <h5>Boootstrap 60%</h5>
+                <span class="bar"><span class="bootstrap"></span></span>
+              </li>
+              <li>
+                <h5>jquery 70%</h5>
+                <span class="bar"><span class="jquery"></span></span>
+              </li>
+            </div>
+        </div>
+    </div>
+    <!--My Skill End Here-->
+    
+     <!-- Footer Start Here-->
+     <div class="container-fluid text-light footer pt-1 mt-1 wow fadeIn" data-wow-delay="0.1s" style="background: linear-gradient(75deg, #05abe0 10%, #8200f4 100%);">
+        <div class="container py-4">
+            <div class="row g-5">
+                <div class="col-lg-2 col-md-6">
+                    <h4 class="text-warning mb-3">Quick Link</h4>
+                    <a class="btn btn-link" href="about.html" target="_self">About Us</a>
+                    <a class="btn btn-link" href="contact.html" target="_self">Contact Us</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="faqs.html" target="_self">FAQs & Help</a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-warning mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3 text-danger"></i>Shalpomaria, Kishoreganj, Bangladesh.</p>
+                    <p class="mb-2"><i class="fa-solid fa-phone-volume me-3 text-danger"></i>01940-506556</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3 text-danger"></i>hmmukarram1977@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social me-4" href="https://github.com/login"><i class="fab fa-github"></i></a>
+                        <a class="btn btn-outline-light btn-social me-4" href="https://www.facebook.com/login.php/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social me-4" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social me-4" href="https://www.linkedin.com/login"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-warning mb-3">Gallery</h4>
+                    <div class="row g-3 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid hover-effect" alt="Gallery Image 1" src="pictures/Gallery-1 (1).png" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid hover-effect" alt="Gallery Image 2" src="pictures/Gallery-1.png" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid hover-effect" alt="Gallery Image 3" src="pictures/Gallery-1 (3).png" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid hover-effect" alt="Gallery Image 4" src="pictures/Gallery-1 (4).png" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid hover-effect" alt="Gallery Image 5" src="pictures/Gallery-1 (5).png" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid hover-effect" alt="Gallery Image 6" src="pictures/Gallery-1 (6).png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-warning mb-3">Newsletter</h4>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter text">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2" id="od-1"><i class="fas fa-search text-white"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-2">
+                        &copy; <a class="border-bottom" href="#"></a>All Right Reserved by Mukarram
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="index-2.html" target="_self">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="faqs.html" target="_self">FQAs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-lg-square rounded-circle back-to-top" style="height: 50px;" id="od-1"><i class="fa-solid fa-arrow-up text-light"></i></a>
+
+
+
+    
+    
+    <!---Bootstrapt JS link-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="plug/wow/wow.min.js"></script>
+    <script src="plug/easing/easing.min.js"></script>
+    <script src="plug/owlcarousel/owl.carousel.min.js"></script>
+    <script src="plug/waypoints/waypoints.min.js"></script>
+    <script src="plug/counterup/counterup.min.js"></script>
+    <script src="plug/tempusdominus/js/moment.min.js"></script>
+    <script src="plug/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="plug/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!---Main JS link-->
+    <script src="index-2.js"></script>
+</body>
+</html>
